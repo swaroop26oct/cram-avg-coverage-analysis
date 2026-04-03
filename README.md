@@ -35,6 +35,17 @@ samtools faidx GCA_000001405.15_GRCh38_no_alt_analysis_set.fa
 `coverage_report.json`- This file  consists of JSON with metadata and can be used by Software engineers in Data Portal and REST API calls.
 `coverage_report.png`- This is a Log-scale bar chart, can be used in publications and presentations.
 
+## Unit Tests
+
+21 tests covering sorting, filtering, weighted mean calculation, samtools output parsing, output file structure, and biological sanity checks.
+
+```bash
+pip3 install pytest pytest-csv
+python3 -m pytest test_coverage.py -v --csv=test_results.tsv --csv-columns=name,status
+```
+
+See `TESTING.md` for a full explanation of what each test checks and why.
+
 ## Requirements
 
 - samtools >= 1.12
