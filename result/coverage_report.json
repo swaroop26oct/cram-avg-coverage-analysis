@@ -1,0 +1,260 @@
+{
+  "metadata": {
+    "cram_file": "COLO829T_TEST.cram",
+    "reference_genome": "GCA_000001405.15_GRCh38_no_alt_analysis_set.fa",
+    "generated_at_utc": "2026-04-02T18:22:27.010800+00:00",
+    "genome_mean_depth": 14.8012
+  },
+  "chromosomes": [
+    {
+      "chromosome": "chr1",
+      "length": 248956421,
+      "num_reads": 25311780,
+      "covered_bases": 229096497,
+      "coverage_pct": 92.0227,
+      "mean_depth": 15.1876,
+      "mean_baseq": 255.0,
+      "mean_mapq": 54.2
+    },
+    {
+      "chromosome": "chr2",
+      "length": 242193528,
+      "num_reads": 25526707,
+      "covered_bases": 239943816,
+      "coverage_pct": 99.0711,
+      "mean_depth": 15.67,
+      "mean_baseq": 255.0,
+      "mean_mapq": 57.2
+    },
+    {
+      "chromosome": "chr3",
+      "length": 198295558,
+      "num_reads": 26023483,
+      "covered_bases": 197868478,
+      "coverage_pct": 99.7846,
+      "mean_depth": 19.6363,
+      "mean_baseq": 255.0,
+      "mean_mapq": 58.5
+    },
+    {
+      "chromosome": "chr4",
+      "length": 190214554,
+      "num_reads": 22968142,
+      "covered_bases": 189236727,
+      "coverage_pct": 99.4859,
+      "mean_depth": 17.8716,
+      "mean_baseq": 255.0,
+      "mean_mapq": 56.3
+    },
+    {
+      "chromosome": "chr5",
+      "length": 181538258,
+      "num_reads": 12943516,
+      "covered_bases": 178406335,
+      "coverage_pct": 98.2748,
+      "mean_depth": 10.5577,
+      "mean_baseq": 255.0,
+      "mean_mapq": 56.1
+    },
+    {
+      "chromosome": "chr6",
+      "length": 170805978,
+      "num_reads": 15681783,
+      "covered_bases": 169808428,
+      "coverage_pct": 99.416,
+      "mean_depth": 13.7344,
+      "mean_baseq": 255.0,
+      "mean_mapq": 58.0
+    },
+    {
+      "chromosome": "chr7",
+      "length": 159345972,
+      "num_reads": 22648184,
+      "covered_bases": 158459150,
+      "coverage_pct": 99.4435,
+      "mean_depth": 21.2506,
+      "mean_baseq": 255.0,
+      "mean_mapq": 57.1
+    },
+    {
+      "chromosome": "chr8",
+      "length": 145138635,
+      "num_reads": 15851487,
+      "covered_bases": 144572131,
+      "coverage_pct": 99.6097,
+      "mean_depth": 16.3411,
+      "mean_baseq": 255.0,
+      "mean_mapq": 57.5
+    },
+    {
+      "chromosome": "chr9",
+      "length": 138394716,
+      "num_reads": 13119334,
+      "covered_bases": 121405443,
+      "coverage_pct": 87.724,
+      "mean_depth": 14.1727,
+      "mean_baseq": 255.0,
+      "mean_mapq": 54.1
+    },
+    {
+      "chromosome": "chr10",
+      "length": 133797421,
+      "num_reads": 10094635,
+      "covered_bases": 131956051,
+      "coverage_pct": 98.6238,
+      "mean_depth": 11.0873,
+      "mean_baseq": 255.0,
+      "mean_mapq": 55.0
+    },
+    {
+      "chromosome": "chr11",
+      "length": 135086621,
+      "num_reads": 11087227,
+      "covered_bases": 133811506,
+      "coverage_pct": 99.0561,
+      "mean_depth": 12.274,
+      "mean_baseq": 255.0,
+      "mean_mapq": 57.8
+    },
+    {
+      "chromosome": "chr12",
+      "length": 133275308,
+      "num_reads": 13986079,
+      "covered_bases": 132722071,
+      "coverage_pct": 99.5849,
+      "mean_depth": 15.6907,
+      "mean_baseq": 255.0,
+      "mean_mapq": 58.2
+    },
+    {
+      "chromosome": "chr13",
+      "length": 114364327,
+      "num_reads": 10546539,
+      "covered_bases": 97769504,
+      "coverage_pct": 85.4895,
+      "mean_depth": 13.7988,
+      "mean_baseq": 255.0,
+      "mean_mapq": 55.2
+    },
+    {
+      "chromosome": "chr14",
+      "length": 107043717,
+      "num_reads": 9368146,
+      "covered_bases": 88324197,
+      "coverage_pct": 82.5123,
+      "mean_depth": 13.0729,
+      "mean_baseq": 255.0,
+      "mean_mapq": 58.6
+    },
+    {
+      "chromosome": "chr15",
+      "length": 101991188,
+      "num_reads": 7546859,
+      "covered_bases": 84266863,
+      "coverage_pct": 82.6217,
+      "mean_depth": 11.0554,
+      "mean_baseq": 255.0,
+      "mean_mapq": 55.1
+    },
+    {
+      "chromosome": "chr16",
+      "length": 90338344,
+      "num_reads": 8846767,
+      "covered_bases": 81626133,
+      "coverage_pct": 90.356,
+      "mean_depth": 14.5772,
+      "mean_baseq": 255.0,
+      "mean_mapq": 52.1
+    },
+    {
+      "chromosome": "chr17",
+      "length": 83257440,
+      "num_reads": 9373805,
+      "covered_bases": 82084785,
+      "coverage_pct": 98.5915,
+      "mean_depth": 16.6372,
+      "mean_baseq": 255.0,
+      "mean_mapq": 55.4
+    },
+    {
+      "chromosome": "chr18",
+      "length": 80373284,
+      "num_reads": 5765740,
+      "covered_bases": 79447358,
+      "coverage_pct": 98.848,
+      "mean_depth": 10.7209,
+      "mean_baseq": 255.0,
+      "mean_mapq": 55.3
+    },
+    {
+      "chromosome": "chr19",
+      "length": 58617615,
+      "num_reads": 6230382,
+      "covered_bases": 55731919,
+      "coverage_pct": 95.0771,
+      "mean_depth": 15.8243,
+      "mean_baseq": 255.0,
+      "mean_mapq": 58.2
+    },
+    {
+      "chromosome": "chr20",
+      "length": 64444166,
+      "num_reads": 9807696,
+      "covered_bases": 63572497,
+      "coverage_pct": 98.6474,
+      "mean_depth": 22.5567,
+      "mean_baseq": 255.0,
+      "mean_mapq": 55.2
+    },
+    {
+      "chromosome": "chr21",
+      "length": 46709982,
+      "num_reads": 5285141,
+      "covered_bases": 37906884,
+      "coverage_pct": 81.1537,
+      "mean_depth": 16.7007,
+      "mean_baseq": 255.0,
+      "mean_mapq": 43.6
+    },
+    {
+      "chromosome": "chr22",
+      "length": 50818467,
+      "num_reads": 5722928,
+      "covered_bases": 36968581,
+      "coverage_pct": 72.7464,
+      "mean_depth": 16.7563,
+      "mean_baseq": 255.0,
+      "mean_mapq": 55.3
+    },
+    {
+      "chromosome": "chrX",
+      "length": 156040894,
+      "num_reads": 10432202,
+      "covered_bases": 154230697,
+      "coverage_pct": 98.8399,
+      "mean_depth": 9.99724,
+      "mean_baseq": 255.0,
+      "mean_mapq": 56.1
+    },
+    {
+      "chromosome": "chrY",
+      "length": 57227414,
+      "num_reads": 589402,
+      "covered_bases": 1628275,
+      "coverage_pct": 2.84527,
+      "mean_depth": 0.969995,
+      "mean_baseq": 255.0,
+      "mean_mapq": 11.8
+    },
+    {
+      "chromosome": "chrM",
+      "length": 16568,
+      "num_reads": 2230311,
+      "covered_bases": 16569,
+      "coverage_pct": 100.0,
+      "mean_depth": 19869.8,
+      "mean_baseq": 255.0,
+      "mean_mapq": 56.4
+    }
+  ]
+}
