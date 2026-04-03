@@ -4,7 +4,7 @@ Calculate average per-base sequence coverage for each chromosome in a CRAM file.
 
 ## How to Run
 
-SSH into an Ubuntu 22.04 EC2 instance (us-east-2, 30 GB disk), upload `ec2_setup.sh` and `coverage_analysis.ipynb`, then:
+SSH into an Ubuntu 22.04 EC2 instance (us-east-2, 30 GB disk), upload `ec2_setup.sh` and `coverage_analysis_Executed.ipynb`, then:
 
 ```bash
 bash ec2_setup.sh
@@ -12,7 +12,7 @@ bash ec2_setup.sh
 
 Access Jupyter via SSH tunnel: `ssh -L 8888:localhost:8888 -i key.pem ubuntu@<IP>`
 
-Open the printed URL in your browser and run all cells in `coverage_analysis.ipynb`.
+Open the printed URL in your browser and run all cells in `coverage_analysis_Executed.ipynb`.
 
 ## Data
 
@@ -31,9 +31,9 @@ samtools faidx GCA_000001405.15_GRCh38_no_alt_analysis_set.fa
 
 ## Output
 
-`coverage_report.tsv` - This file can be used by Bioinformaticians for downstream analysis for easy uploading to pandas, R and other downstream scripts
-`coverage_report.json`- This file  consists of JSON with metadata and can be used by Software engineers in Data Portal and REST API calls.
-`coverage_report.png`- This is a Log-scale bar chart, can be used in publications and presentations.
+`result/coverage_report.tsv` - This file can be used by Bioinformaticians for downstream analysis for easy uploading to pandas, R and other downstream scripts
+`result/coverage_report.json`- This file  consists of JSON with metadata and can be used by Software engineers in Data Portal and REST API calls.
+`result/coverage_report.png`- This is a Log-scale bar chart, can be used in publications and presentations.
 
 ## Unit Tests
 
@@ -41,10 +41,10 @@ samtools faidx GCA_000001405.15_GRCh38_no_alt_analysis_set.fa
 
 ```bash
 pip3 install pytest pytest-csv
-python3 -m pytest test_coverage.py -v --csv=test_results.tsv --csv-columns=name,status
+python3 -m pytest Unit_test/test_coverage.py -v --csv=Unit_test/test_results.tsv --csv-columns=name,status
 ```
 
-See `TESTING.md` for a full explanation of what each test checks and why.
+See `Unit_test/TESTING.md` for a full explanation of what each test checks and why.
 
 ## Requirements
 
