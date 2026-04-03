@@ -1,0 +1,9 @@
+# Data files
+*.cram
+*.cram.crai
+*.fa
+*.fa.fai
+
+# OS files
+.DS_Store
+__pycache__/
